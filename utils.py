@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torchvision import transforms
 from dataloader import readpfm as rp
 
-
+# Check
 def disparity_loader(path):
     return rp.readPFM(path)
     
