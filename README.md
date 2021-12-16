@@ -42,10 +42,10 @@ python infer.py --model PSMNet \
 ```
 Make sure the directory to the datasets are correct.
 
-## Pretrained Weights [Coming soon...]
-* [PSMNet](*)
-* [GwcNet](*)
-* [CFNet](*)
+## Pretrained Weights [Google Drive]
+* [PSMNet](https://drive.google.com/file/d/1df-DP2wJpwr899dr_aoNDO3O4gTOk_KW/view?usp=sharing)
+* [GwcNet](https://drive.google.com/file/d/1uF4cpL6Fkt3ykOD5B1_WKnvuLOcqU2pt/view?usp=sharing)
+* [CFNet](https://drive.google.com/file/d/1neUFFEGyDnYgRpGNn14tAFkwP6en9Peb/view?usp=sharing)
 
 
 # Acknowledgement
