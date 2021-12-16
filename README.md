@@ -43,9 +43,9 @@ python infer.py --model PSMNet \
 Make sure the directory to the datasets are correct.
 
 ## Pretrained Weights [Coming soon...]
-* [KITTI 2015](*)
-* [DrivingStereo](*)
-* [Scene Flow](*)
+* [PSMNet](*)
+* [GwcNet](*)
+* [CFNet](*)
 
 
 # Acknowledgement
