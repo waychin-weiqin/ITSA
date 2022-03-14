@@ -18,9 +18,9 @@ Run `bash script/train.sh` for training.
 ### Arguments 
 * `itsa`: Path to the pre-trained weight file that you wish to load to the model during training
 * `model`: Select the stereo matching networks from one of the following: [PSMNet, GwcNet, CFNet].
-* `lambd`: Hyperparameter for our Fisher loss.
 * `maxdisp`: Range of disparity. Default = 192.
 * `epochs`: Total number of training epochs.
+* `lambd`: Hyperparameter for our Fisher loss.
 * `eps`: Shortcut-perturbation augmentation strength. 
 
 ## :memo: Inference
