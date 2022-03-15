@@ -1,6 +1,6 @@
 # ITSA (CVPR 2022)
 
-This is the official code of the work **ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks**, CVPR 2022, WeiQin Chuah, Ruwan Tennakoon, Reza Hoseinnezhad, Ali Bab-Hadiashar, David Suter. [Arxiv](https://arxiv.org/abs/2201.02263)
+This is the official code of the work **ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks**, CVPR 2022, WeiQin Chuah, Ruwan Tennakoon, Reza Hoseinnezhad, Ali Bab-Hadiashar, David Suter. [[Arxiv]](https://arxiv.org/abs/2201.02263)
 
 # How to use:
 ## Environment setup
