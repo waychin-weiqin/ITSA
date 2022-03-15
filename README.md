@@ -1,6 +1,6 @@
-# ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks
+# ITSA (CVPR 2022)
 
-This is the official code of the work ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks.
+This is the official code of the work ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks. [Arxiv](https://arxiv.org/abs/2201.02263)
 
 # How to use:
 ## Environment setup
