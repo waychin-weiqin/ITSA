@@ -567,7 +567,7 @@ class cfnet(nn.Module):
         return img
 
     def forward(self, left, right):
-        if self.itsa:
+        if self.itsa & self.training:
             # SCP Augmentation 
             left_ = left.clone().detach()
             left_.requires_grad = True 

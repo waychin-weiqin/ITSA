@@ -45,6 +45,8 @@ parser.add_argument('--savemodel', default='./checkpoints/',
 parser.add_argument('--model', default='PSMNet',
                     help='Select model [PSMNet, GwcNet, CFNet]')
 
+parser.add_argument('--interval', type=int, default=1,
+                    help='Interval epoch for testing. Default=1')
 parser.add_argument('--cuda_group', type=int, default=1,
                     help='Select GPUs cluster [1: {0,1}, 2: {2,3}]')
 parser.add_argument('--no-cuda', action='store_true', default=False,
@@ -266,14 +268,14 @@ def main():
             print('>>>[INFO] Epoch: %d/%d  Iter: %d/%d  Total Loss: %.3f  Time: %.2f\n'
                   % (epoch, args.epochs, batch_idx, len(TrainImgLoader), loss_train, toc - tic))
             total_train_loss += loss_train
-        
+            break
         # Average total losses 
         total_train_loss /= len(TrainImgLoader)
         
         print('>>>[INFO] Epoch: %d/%d   Total Training Loss: %.3f  Time/Epoch: %.2f hrs' %
               (epoch, args.epochs, total_train_loss, (time.time() - tic_epoch) / 3600))
 
-        save_model(total_train_loss, epoch=epoch)
+        #save_model(total_train_loss, epoch=epoch)
         
         if (epoch % args.interval) == 0:
             ## Test ##

@@ -230,7 +230,7 @@ class GwcNet(nn.Module):
         
 
     def forward(self, imgL, imgR):
-        if self.itsa:
+        if self.itsa & self.training:
             #=================================================#
             # SCP Augmentation 
             imgL_ = imgL.clone().detach()

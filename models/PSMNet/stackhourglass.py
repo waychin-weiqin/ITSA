@@ -192,7 +192,7 @@ class PSMNet(nn.Module):
         return grad 
 
     def forward(self, imgL, imgR):
-        if self.itsa:
+        if self.itsa & self.training:
             #=================================================#
             # SCP Augmentation 
             imgL_ = imgL.clone().detach()
