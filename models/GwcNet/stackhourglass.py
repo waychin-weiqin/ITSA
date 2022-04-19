@@ -302,9 +302,9 @@ class GwcNet(nn.Module):
             return dispEsts
 
 
-def GwcNet_G(d, eps, itsa=False):
+def GwcNet_G(d, eps=1.0, itsa=False):
     return GwcNet(d, eps=eps, use_concat_volume=False, itsa=itsa)
 
 
-def GwcNet_GC(d, eps, itsa=False):
+def GwcNet_GC(d, eps=1.0, itsa=False):
     return GwcNet(d, eps=eps, use_concat_volume=True, itsa=itsa)

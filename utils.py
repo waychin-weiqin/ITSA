@@ -59,3 +59,29 @@ def dataloader(filepath, submission=False, kitti=True):
         return left_test, right_test
 
           
+def load_ckpt(model, state_dict_path=None):
+    if state_dict_path == None:
+        raise Exception("No ckpt path stated.")
+    print("[INFO] Loading saved state dict")
+    print('[INFO] from ' + state_dict_path)
+    ckpt = torch.load(state_dict_path, map_location=torch.device('cpu'))
+    try:
+        state_dict = ckpt["state_dict"]
+        model.load_state_dict(state_dict)
+    except:
+        model.load_state_dict(ckpt)
+
+    model.eval()
+
+    return model
+
+
+def process(img):
+    __imagenet_stats = {'mean': [0.485, 0.456, 0.406],
+                        'std': [0.229, 0.224, 0.225]}
+
+    preprocess = transforms.Compose([transforms.ToTensor(),
+                                     transforms.Normalize(**__imagenet_stats)])
+    img = preprocess(img)
+
+    return img

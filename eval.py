@@ -79,7 +79,7 @@ model.cuda()
 # Load testing data
 if args.kitti15:
     print(">>>[INFO] Loading data: KITTI 2015")
-    filepath = '/media/SSD2/wei/Dataset/KITTI/data_scene_flow/training/'
+    filepath = '/media/SSD2/wei/Dataset/KITTI/data_scene_flow/train/'
     test_left, test_right, test_disp = dataloader(filepath, submission=False)
     if args.savepath:
         save_path = osp.join(args.savepath, 'KITTI', '2015')
