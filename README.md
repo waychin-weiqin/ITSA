@@ -47,6 +47,17 @@ Make sure the directory to the datasets are correct.
 * [GwcNet](https://drive.google.com/file/d/1uF4cpL6Fkt3ykOD5B1_WKnvuLOcqU2pt/view?usp=sharing)
 * [CFNet](https://drive.google.com/file/d/1neUFFEGyDnYgRpGNn14tAFkwP6en9Peb/view?usp=sharing)
 
+# Citation
+```
+@InProceedings{Chuah_2022_CVPR,
+    author    = {Chuah, WeiQin and Tennakoon, Ruwan and Hoseinnezhad, Reza and Bab-Hadiashar, Alireza and Suter, David},
+    title     = {ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {13022-13032}
+}
+```
 
 # Acknowledgement
 The codes in this work heavily relies on codes by [PSMNet](https://github.com/JiaRenChang/PSMNet), [GwcNet](https://github.com/xy-guo/GwcNet) and [CFNet](https://github.com/gallenszl/CFNet). We thank the original authors for their awesome repos.
