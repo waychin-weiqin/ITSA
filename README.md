@@ -48,6 +48,7 @@ Make sure the directory to the datasets are correct.
 * [CFNet](https://drive.google.com/file/d/1neUFFEGyDnYgRpGNn14tAFkwP6en9Peb/view?usp=sharing)
 
 # Citation
+If you find this code useful in your research, please cite:
 ```
 @InProceedings{Chuah_2022_CVPR,
     author    = {Chuah, WeiQin and Tennakoon, Ruwan and Hoseinnezhad, Reza and Bab-Hadiashar, Alireza and Suter, David},
