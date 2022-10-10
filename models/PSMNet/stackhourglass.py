@@ -185,8 +185,8 @@ class PSMNet(nn.Module):
         return img
         
     def grad_norm(self, grad):
-        grad = grad.pow(2)
         grad = F.normalize(grad, p=2, dim=1) 
+        grad = grad.pow(2)  # optional
         grad = grad * self.eps
           
         return grad 
