@@ -1,6 +1,7 @@
 # ITSA (CVPR 2022)
 
-This is the official code of the work **ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks**, CVPR 2022, WeiQin Chuah, Ruwan Tennakoon, Reza Hoseinnezhad, Ali Bab-Hadiashar, David Suter. [[Arxiv]](https://arxiv.org/abs/2201.02263)
+This is the official code of the work **ITSA: An Information-Theoretic Approach to Automatic Shortcut Avoidance and Domain Generalization in Stereo Matching Networks**, CVPR 2022, \
+WeiQin Chuah, Ruwan Tennakoon, Reza Hoseinnezhad, Ali Bab-Hadiashar, David Suter. [[Arxiv]](https://arxiv.org/abs/2201.02263)
 
 # How to use:
 ## Environment setup
@@ -43,9 +44,9 @@ python infer.py --model PSMNet \
 Make sure the directory to the datasets are correct.
 
 ## Pretrained Weights [Google Drive]
-* [PSMNet](https://drive.google.com/file/d/1df-DP2wJpwr899dr_aoNDO3O4gTOk_KW/view?usp=sharing)
-* [GwcNet](https://drive.google.com/file/d/1uF4cpL6Fkt3ykOD5B1_WKnvuLOcqU2pt/view?usp=sharing)
-* [CFNet](https://drive.google.com/file/d/1neUFFEGyDnYgRpGNn14tAFkwP6en9Peb/view?usp=sharing)
+* [PSMNet](https://drive.google.com/file/d/1Hf2UUq00WVMyy6o_SuPPQFbyFholV_Nc/view?usp=drive_link)
+* [GwcNet](https://drive.google.com/file/d/1sWUfL0lfwmlnUyvA5_w_p1PXluZ-vX-s/view?usp=drive_link)
+* [CFNet](https://drive.google.com/file/d/1Y3SrRcvEgvjLBfYlBqglbFjzICRyk4PN/view?usp=drive_link)
 
 # Citation
 If you find this code useful in your research, please cite:
