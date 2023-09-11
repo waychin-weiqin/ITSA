@@ -198,6 +198,7 @@ def train(data, epoch):
         featEsts, dispEsts = model(imgL, imgR)
         
     else:  
+        featEsts = None
         dispEsts = model(imgL, imgR)
         
     loss = compute_loss(featEsts, dispEsts, dispTrue, verbose=args.verbose)
@@ -268,7 +269,7 @@ def main():
             print('>>>[INFO] Epoch: %d/%d  Iter: %d/%d  Total Loss: %.3f  Time: %.2f\n'
                   % (epoch, args.epochs, batch_idx, len(TrainImgLoader), loss_train, toc - tic))
             total_train_loss += loss_train
-            break
+            
         # Average total losses 
         total_train_loss /= len(TrainImgLoader)
         
